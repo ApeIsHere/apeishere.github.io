@@ -1,0 +1,77 @@
+.button 
+    width: 150px
+    height: 30px
+    border-radius: 5px
+    background-color: $main-color
+    border: none
+    font-size: 12px
+    font-weight: 500
+    color: #fff
+    text-transform: uppercase
+    &:hover
+        box-shadow: 3px 3px 10px #a3a3a3
+    &_main
+        margin-top: 67px
+        width: 300px
+        height: 50px
+        font-size: 16px
+    &_submit
+        width: 300px
+        height: 55px
+        font-size: 16px
+    &_mini
+        width: 131px
+        height: 40px
+        font-size: 14px
+        &:hover
+            box-shadow: 3px 3px 10px $main-color
+
+
+
+
+
+@media (max-width: 991px) 
+    .button
+        width: 140px
+        height: 25px
+        font-size: 11px
+        &_main
+            width: 270px
+            height: 40px
+            font-size: 14px
+        &_submit
+            width: 280px
+            height: 50px
+            font-size: 14px
+        &_mini
+            width: 131px
+            height: 40px
+            font-size: 14px
+            
+@media (max-width: 767px)
+     .button
+        width: 130px
+        height: 20px
+        font-size: 10px
+        &_main
+            width: 230px
+            height: 30px
+            font-size: 12px
+        &_submit
+            width: 280px
+            height: 45px
+            font-size: 14px
+        &_mini
+            width: 110px
+            height: 35px
+            font-size: 14px    
+
+@media (max-width: 575px)
+    .button
+        width: 110px
+        &_main
+            width: 180px
+        &_submit
+            width: 250px
+            height: 55px
+            font-size: 14px
